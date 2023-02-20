@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B35BB0D029A367C3005F13CA /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35BB0CF29A367C3005F13CA /* AnimatedButton.swift */; };
+		B35BB0D229A367CB005F13CA /* LoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35BB0D129A367CB005F13CA /* LoadingButton.swift */; };
+		B35BB0D429A36809005F13CA /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35BB0D329A36809005F13CA /* CustomButton.swift */; };
 		B3A6A56E29A3629900C5D620 /* Buttons.docc in Sources */ = {isa = PBXBuildFile; fileRef = B3A6A56D29A3629900C5D620 /* Buttons.docc */; };
 		B3A6A56F29A3629900C5D620 /* Buttons.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A6A56C29A3629900C5D620 /* Buttons.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B35BB0CF29A367C3005F13CA /* AnimatedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
+		B35BB0D129A367CB005F13CA /* LoadingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingButton.swift; sourceTree = "<group>"; };
+		B35BB0D329A36809005F13CA /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		B3A6A56929A3629900C5D620 /* Buttons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Buttons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A6A56C29A3629900C5D620 /* Buttons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Buttons.h; sourceTree = "<group>"; };
 		B3A6A56D29A3629900C5D620 /* Buttons.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Buttons.docc; sourceTree = "<group>"; };
@@ -28,6 +34,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B35BB0CC29A3675A005F13CA /* AnimatedButton */ = {
+			isa = PBXGroup;
+			children = (
+				B35BB0CF29A367C3005F13CA /* AnimatedButton.swift */,
+			);
+			path = AnimatedButton;
+			sourceTree = "<group>";
+		};
+		B35BB0CD29A36767005F13CA /* LoadingButton */ = {
+			isa = PBXGroup;
+			children = (
+				B35BB0D129A367CB005F13CA /* LoadingButton.swift */,
+			);
+			path = LoadingButton;
+			sourceTree = "<group>";
+		};
 		B3A6A55F29A3629900C5D620 = {
 			isa = PBXGroup;
 			children = (
@@ -47,6 +69,9 @@
 		B3A6A56B29A3629900C5D620 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
+				B35BB0D329A36809005F13CA /* CustomButton.swift */,
+				B35BB0CD29A36767005F13CA /* LoadingButton */,
+				B35BB0CC29A3675A005F13CA /* AnimatedButton */,
 				B3A6A56C29A3629900C5D620 /* Buttons.h */,
 				B3A6A56D29A3629900C5D620 /* Buttons.docc */,
 			);
@@ -132,6 +157,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B35BB0D429A36809005F13CA /* CustomButton.swift in Sources */,
+				B35BB0D229A367CB005F13CA /* LoadingButton.swift in Sources */,
+				B35BB0D029A367C3005F13CA /* AnimatedButton.swift in Sources */,
 				B3A6A56E29A3629900C5D620 /* Buttons.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
